@@ -1,0 +1,6 @@
+/**/beacondata
+/**/validatordata
+/**/wallet/direct
+
+.ethereum-*
+.ethereum
