@@ -8,7 +8,7 @@ MIN_GENESIS_TIME: 1750662103
 GENESIS_FORK_VERSION: 0x00000084
 GENESIS_DELAY: 30
 
-MAX_EFFECTIVE_BALANCE: 32000000000
+MAX_EFFECTIVE_BALANCE: 64000000000
 # Forking
 # ---------------------------------------------------------------
 # Some forks are disabled for now:
