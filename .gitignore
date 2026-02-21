@@ -1,6 +1,5 @@
-/**/beacondata
-/**/validatordata
-/**/wallet/direct
+.env
 
-.ethereum-*
-.ethereum
+cl/node-*
+cl/validator-*
+el/geth/.ethereum*
