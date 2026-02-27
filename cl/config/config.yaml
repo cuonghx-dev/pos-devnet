@@ -1,15 +1,13 @@
-PRESET_BASE: 'gnosis'
+PRESET_BASE: 'minimal'
 CONFIG_NAME: 'joc-1'
 
 # Genesis
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
-MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 3
+MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 1
 MIN_GENESIS_TIME: 1753840307
 GENESIS_FORK_VERSION: 0x00000084
 GENESIS_DELAY: 25
-EPOCHS_PER_ETH1_VOTING_PERIOD: 1
-MAX_EFFECTIVE_BALANCE: 64000000000
 
 # Forking
 # ---------------------------------------------------------------
@@ -50,15 +48,14 @@ ELECTRA_FORK_EPOCH: 18446744073709551615
 # ---------------------------------------------------------------
 # 5 seconds
 SECONDS_PER_SLOT: 5
-SLOTS_PER_EPOCH: 5
 # 14 (estimate from Eth1 mainnet)
 SECONDS_PER_ETH1_BLOCK: 5
 # 2**8 (= 256) epochs ~27 hours
-MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 5 
+MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 5
 # 2**8 (= 256) epochs ~27 hours
 SHARD_COMMITTEE_PERIOD: 10
 # 2**11 (= 2,048) Eth1 blocks ~8 hours
-ETH1_FOLLOW_DISTANCE: 1
+ETH1_FOLLOW_DISTANCE: 5
 
 # Validator cycle
 # ---------------------------------------------------------------
