@@ -1,4 +1,4 @@
-PRESET_BASE: 'minimal'
+PRESET_BASE: 'gnosis'
 CONFIG_NAME: 'joc-1'
 
 # Genesis
